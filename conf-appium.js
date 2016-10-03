@@ -9,7 +9,6 @@ exports.config = {
 
   capabilities: {
     browserName: 'chrome',
-	binary: '/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver',
     'appium-version': '1.5.3',
     platformName: 'Android',
     platformVersion: '6.0',
