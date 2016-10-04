@@ -4,18 +4,7 @@
 
 exports.config = {
   seleniumAddress: 'http://localhost:4723/wd/hub',
-
   specs: ['./tests/deBijenkorf.shop.spec.js'],
-
-  capabilities: {
-    browserName: 'chrome',
-    'appium-version': '1.5.3',
-    platformName: 'Android',
-    platformVersion: '6.0',
-    deviceName: 'Android Emulator',
-  },
-
-  // baseUrl: 'http://10.0.2.2:8000',
 
   // configuring wd in onPrepare
   // wdBridge helps to bridge wd driver with other selenium clients
@@ -25,5 +14,13 @@ exports.config = {
       protractor = require('protractor'),
       wdBridge = require('wd-bridge')(protractor, wd);
     wdBridge.initFromProtractor(exports.config);
-  }
-};
+  },
+
+  capabilities: {
+    browserName: 'chrome',
+    'appium-version': '1.5.3',
+    platformName: 'Android',
+    platformVersion: '6.0',
+    deviceName: 'Android Emulator',
+	}
+}
