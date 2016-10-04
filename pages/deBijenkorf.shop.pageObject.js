@@ -6,7 +6,7 @@
   
 var deBijenkorfshop = function() {
   //homepage selectors
-  this.banner = element(by.css(".dbk-banner"));
+  this.banner = element(by.css(".dbk-inspiration-wrapper"));
   this.logo = element(by.css(".dbk-header--logo"));
   this.searchItems = element(by.css(".dbk-form--field"));
   this.searchButton = element(by.css(".dbk-icon-r_search"));
