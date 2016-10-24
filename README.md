@@ -4,7 +4,7 @@ This is an example showing Protractor end-to-end tests for a non-angular applica
 
 ## Installation
 ```
-git clone https://github.com/paulvanalmere/eCommerce-protractor.git
+git clone https://github.com/paulvanalmere/ecommerce-protractor.git
 cd protractor
 protractor conf.js
 ```
