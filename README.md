@@ -1,4 +1,4 @@
-# eCommerce-protractor
+# ecommerce-protractor
 
 This is an example showing Protractor end-to-end tests for a non-angular application that includes a simple page object.
 
